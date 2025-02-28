@@ -41,14 +41,16 @@ Matplotlib
 
 # Installation
 
+```
 Clone the repository:
 git clone https://github.com/Kenil-Sutariya/cubecrops-ml-lab-project.git
 cd cubecrops-ml-lab-project
+```
 
 Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 # How to Run
 
 Upload the models from the models folder to your Google Colab session.
@@ -57,7 +59,7 @@ Open the respective notebook from the colab_notebooks folder.
 
 Follow the instructions provided in the notebook to run either the health scoring system or the full pipeline.
 
-
+```
 cubecrops-ml-lab-project/
 │
 ├── colab_notebooks/            # Contains Google Colab notebooks for running the CubeCrops pipeline
@@ -67,3 +69,4 @@ cubecrops-ml-lab-project/
 └── models/                    # Pre-trained AI models
     ├── LeafBoxBounding.pt      # PyTorch model for leaf bounding box detection
     └── PigmentAnalysis.keras   # Keras model for pigment analysis
+```
