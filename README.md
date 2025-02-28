@@ -16,7 +16,7 @@ Measure crop height and calculate biomass through image-based techniques.
 
 Generate an overall health score based on the combined analysis.
 
-#Prerequisites
+# Prerequisites
 
 The following dependencies are required to run the project:
 
