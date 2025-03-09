@@ -1,4 +1,4 @@
-# CubeCrops ML Lab Project
+# CubeCrops ML Lab Project ☘️
 
 ## Overview
 CubeCrops is an AI-driven system designed to analyze the health of radish microgreens using various sensor data and image processing techniques. The project integrates IoT devices, machine learning models, and a Flask-based API to collect, process, and visualize plant health metrics.
