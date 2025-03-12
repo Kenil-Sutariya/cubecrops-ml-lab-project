@@ -28,7 +28,7 @@ CubeCrops is an AI-driven system designed to analyze the health of radish microg
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cubecrops-ml-lab-project.git
+   git clone https://github.com/Kenil-Sutariya/cubecrops-ml-lab-project.git
    cd cubecrops-ml-lab-project
    ```
 2. Install dependencies:
