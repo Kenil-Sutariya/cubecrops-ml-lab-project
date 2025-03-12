@@ -7,13 +7,13 @@ const char* ssid = "************";         // Your WiFi network name
 const char* password = "***********"; // Your WiFi password
 
 // Flask API Details
-const char* serverAddress = "aixaiprojekt.leuphana.de";  // Your server domain
-const int serverPort = 443;  // HTTPS Port
+const char* serverAddress = "*********";  // Your server domain
+const int serverPort = ***;  // HTTPS Port
 
 WiFiSSLClient wifi;           
 HttpClient client(wifi, serverAddress, serverPort);  
 
-const char* authToken = "Bearer Cubecrops@2024";  // Authorization token
+const char* authToken = "*********";  // Authorization token
 
 // **Ultrasonic Sensor Pins**
 const int trig1 = 7, echo1 = 6;  // Height Sensor 1
