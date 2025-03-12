@@ -57,21 +57,21 @@ CubeCrops is an AI-driven system designed to analyze the health of radish microg
 ### Required libraries for Arduino IDE
 
 1. SP32-Specific Libraries:
-esp_camera.h
-esp_http_server.h 
-esp_timer.h 
-sdkconfig.h
-esp32-hal-ledc.h
+- esp_camera.h
+- esp_http_server.h 
+- esp_timer.h 
+- sdkconfig.h
+- esp32-hal-ledc.h
 
 2. Common Sensor Libraries:
-DHT.h 
-Wire.h 
-Adafruit_Sensor.h 
-Adafruit_BMP280.h 
-Adafruit_SHT31.h 
-HX711.h
-esp_http_server.h
-esp_camera.h
+- DHT.h 
+- Wire.h 
+- Adafruit_Sensor.h 
+- Adafruit_BMP280.h 
+- Adafruit_SHT31.h 
+- HX711.h
+- esp_http_server.h
+- esp_camera.h
 
 ### Method to install required libraries in Arduino IDE:
 1. Open Arduino IDE.
