@@ -10,3 +10,14 @@ flask
 requests
 pyserial  # For serial communication with Arduino
 gunicorn  # For running the Flask app in production
+glob
+imageio.v2
+matplotlib
+YOLO
+cv2
+numpy
+math
+Image
+load_model
+random
+datetime
