@@ -1,29 +1,42 @@
-python == 3.10
+# Python version
+python==3.10
+
+# Data Science & Numerical Computing
 numpy
 pandas
+scikit-learn
+matplotlib
+
+# Computer Vision & Deep Learning
 opencv-python
 torch
 torchvision
 tensorflow
-scikit-learn
-matplotlib
-flask
-requests
-pyserial  # For serial communication with Arduino
-gunicorn  # For running the Flask app in production
-glob
-imageio.v2
-matplotlib
 YOLO
 cv2
-numpy
+
+# Image Processing & File Handling
+imageio[v2]
+Pillow  # PIL library
+glob
 math
-Image
-load_model
 random
 datetime
+
+# Flask API & Web Services
 Flask==3.1.0
+requests
+gunicorn  # For running Flask app in production
+
+# Google API for Drive Integration
 google-api-python-client==2.118.0
 google-auth==2.38.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.1
+
+# Serial Communication with Arduino
+pyserial
+
+# TensorFlow Model Loading
+tensorflow
+load_model
