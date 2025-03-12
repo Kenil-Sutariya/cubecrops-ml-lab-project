@@ -20,7 +20,7 @@ CubeCrops is an AI-driven system designed to analyze the health of radish microg
 ## Setup & Installation
 ### Prerequisites
 - Python 3.x
-- Arduino IDE for microcontroller programming (Version: 
+- Arduino IDE for microcontroller programming (Version: 1.8.19)
 - Flask for API development
 - Keras for running ML models
 - OpenCV for image processing
@@ -49,10 +49,10 @@ CubeCrops is an AI-driven system designed to analyze the health of radish microg
 4. Visualize results in Google Colab or a dashboard.
 
 ## File Descriptions
-camera.ino – The main Arduino sketch that initializes and controls the camera module.
-app_httpd.cpp – Handles HTTP server functions, allowing the camera to stream video over a web interface.
-camera_index.h – Contains HTML and JavaScript code for the web interface that displays the camera feed.
-camera_pins.h – Defines the GPIO pin configuration for the camera module.
+1. camera.ino – The main Arduino sketch that initializes and controls the camera module.
+2. app_httpd.cpp – Handles HTTP server functions, allowing the camera to stream video over a web interface.
+3. camera_index.h – Contains HTML and JavaScript code for the web interface that displays the camera feed.
+4. camera_pins.h – Defines the GPIO pin configuration for the camera module.
 
 ### Required libraries for Arduino IDE
 
