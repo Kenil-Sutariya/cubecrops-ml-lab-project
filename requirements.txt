@@ -26,7 +26,7 @@ datetime
 # Flask API & Web Services
 Flask==3.1.0
 requests
-gunicorn  # For running Flask app in production
+cron  # For running Flask app in production
 
 # Google API for Drive Integration
 google-api-python-client==2.118.0
