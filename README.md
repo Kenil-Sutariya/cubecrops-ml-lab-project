@@ -48,6 +48,31 @@ CubeCrops is an AI-driven system designed to analyze the health of radish microg
 3. Process the collected data using machine learning models.
 4. Visualize results in Google Colab or a dashboard.
 
+## Sensors & Connections
+
+| Sensor         | Pin  | Connection       |
+|--------------|------|-----------------|
+| **DHT22**     | VCC  | 5V             |
+|              | Data  | D2             |
+|              | GND   | GND            |
+| **HX711**    | VCC  | 5V             |
+|              | GND   | GND            |
+|              | DT    | D4             |
+|              | SCK   | D5             |
+| **HC-SR04 1** | VCC  | 5V             |
+|              | Trig  | D7             |
+|              | Echo  | D6             |
+|              | GND   | GND            |
+| **HC-SR04 2** | VCC  | 5V             |
+|              | Trig  | D8             |
+|              | Echo  | D9             |
+|              | GND   | GND            |
+| **ESP32 Camera** | VCC  | 5V (FTDI VCC) |
+|                  | GND  | GND (FTDI GND) |
+|                  | TX   | RX (FTDI Module) |
+|                  | RX   | TX (FTDI Module) |
+
+
 ## Repository Structure
 ```
 cubecrops-ml-lab-project/
@@ -74,3 +99,11 @@ cubecrops-ml-lab-project/
 ├── Flask_code_VM.py            # Flask server script for data transmission and processing
 ├── readme.md                   # Project documentation (this file)
 ```
+
+## Project Contributors
+
+1. **Kenil Sutariya** 
+2. **Niket Kapoor** 
+3. **Shree Shangaavi Nagaraj**
+4. **Faezeh Moradi**
+5. **Hannah Heyne** 
