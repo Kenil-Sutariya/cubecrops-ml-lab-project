@@ -146,7 +146,7 @@ cubecrops-ml-lab-project/
 
 ## Project Contributors
 
-1. **Kenil Sutariya** 
+1. **Kenilbhai Sutariya** 
 2. **Niket Kapoor** 
 3. **Shree Shangaavi Nagaraj**
 4. **Faezeh Moradi**
